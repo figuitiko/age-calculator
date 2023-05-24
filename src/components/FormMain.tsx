@@ -3,7 +3,6 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import ButtonAction from './ButtonAction'
 import { useFormStore } from '../store/store'
-import { type FC } from 'react'
 
 const currentYear = new Date().getFullYear()
 interface Props {

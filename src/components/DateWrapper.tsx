@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import DateItem from './DateItem'
 import { useFormStore } from '../store/store'
 import { calculateAge } from '../util'
